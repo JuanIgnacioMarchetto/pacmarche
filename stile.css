@@ -1,0 +1,68 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background:url(./hamburguesa.jpg) ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+    box-sizing: border-box;
+}
+
+.wall {
+    background:lightseagreen;
+   }
+
+.power-pellet {
+    background:url(./coca.jpg);
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blinky {
+    background:url(./mama.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pinky {
+    background:url(./papa.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inky {
+    background:url(./dante.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.clyde {
+    background:url(./titi.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.pac-man {
+    background:url(./ape.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.scared-ghost {
+    background-color: aquamarine;
+}
